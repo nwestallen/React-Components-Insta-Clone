@@ -54,6 +54,27 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 2,
+        username: "HamFranklin",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://static2.srcdn.com/wordpress/wp-content/uploads/2019/02/Danny-DeVito-on-Its-Always-Sunny-in-Philadelphia.jpg',
+        likes: 69,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 40,
+                username: "HamFranklin",
+                text: "A picture is worth a thousand words",
+            },
+
+            {
+                id: 41,
+                username: 'thiccAllen',
+                text: 'Give me some of that hair!'
+            }
+        ],
+    },
 ];
 
 export default dummyData;
