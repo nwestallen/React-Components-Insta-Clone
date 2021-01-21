@@ -41,7 +41,6 @@ const App = () => {
       post.username.includes(searchText) || 
       post.comments.some(comment => comment.text.includes(searchText))
     ):initialPosts));
-    console.log(posts);
   };
 
   return (
